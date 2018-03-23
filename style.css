@@ -1,0 +1,210 @@
+html {
+    height:calc(100% - .6em);
+}
+
+body {
+    background: black;
+    color: white;
+    height:calc(100% - .6em);
+}
+
+header {
+    height:3em;
+}
+
+
+
+.gameButton {
+
+    width:3em;
+    height:100%;
+    margin-bottom: .25em;
+    font-weight: bold;
+    font-size: 1em;
+    border:none;
+    background: gray;
+    color: white;
+}
+
+.seed {
+    float:left;
+}
+
+.spy {
+    float:right;
+}
+
+#seedButton {
+    display:none;
+}
+
+#seedField {
+    float:left;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#seedSpan {
+    color:darkslateblue;
+    font-size: .75em;
+}
+
+
+
+.title {
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    float:left;
+    text-align: center;
+    font-size:1em;
+    width:calc(100% - 8.5em);
+    margin-top: 1em;
+}
+
+.red {
+    color:red;
+    margin-left:.25em;
+    float:left;
+}
+
+.blue {
+    color:blue;
+    margin-right:.25em;
+    float:right;
+}
+
+.score {
+    width:1em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.wordTable {
+    width:100%;
+    height:calc(100% - 5em);
+    border-collapse: collapse;
+}
+
+.cell {
+    width:20%;
+    height:18%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    /*font-size: .38em;*/
+    font-size:.6em;
+    border: 2px solid gray;
+}
+
+.cellButton {
+    height:100%;
+    width:100%;
+    background:none;
+    color:white;
+    font-weight: bold;
+    font-size:1em;
+    border:none;
+}
+
+@media only screen and (min-width: 320px) {
+    
+    .cell {
+        /*font-size:.41em;*/
+        font-size: ;
+    }
+}
+
+
+@media only screen and (min-width: 480px) {
+
+    header {
+        height: 4em;
+    }
+    
+    .gameButton {
+        width:5em;
+    }
+    
+    .title {
+        width: calc(100% - 7.5em);
+        font-size: 2em;
+        margin-top: .6em;
+    }
+    
+    .score {
+        font-size: 2em;
+        margin-top: .6em;
+    }
+    
+    .cell {
+        /*font-size: .62em;*/
+        font-size: 1em;
+    }
+    
+}
+
+@media only screen and (min-width: 715px) {
+    
+    .cell {
+        /*font-size: 1em;*/
+        font-size:1.5em;    
+    }
+}
+
+
+@media only screen and (min-width: 1080px) {
+    
+    header {
+        height: 5em;
+    }
+    
+    #seedButton {
+        display:block;
+    }
+
+    #seedField {
+        display:none;
+    }
+
+    .gameButton {
+        font-size: 2em;
+    }
+
+    .title {
+        width: calc(100% - 6.4em);
+        font-size: 5em;
+        margin-top:.1em;
+    }
+    
+    .score {
+        font-size: 4em;
+        margin-top: .15em;
+    }
+    
+    .red {
+        margin-left: .5em;
+    }
+
+    .blue {
+        margin-right: .5em;
+    }
+
+    .cell {
+        /*font-size: 1.5em;*/
+        font-size: 2em;
+    }
+
+}
+
+@media only screen and (min-width: 1315px) {
+    
+    .cell {
+        /*font-size:2em; */   
+        font-size: 2.5em;
+    }
+}
